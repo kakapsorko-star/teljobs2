@@ -52,17 +52,20 @@ function isFresh(text) {
     return false; // Strict default
 }
 
-async function sendTelegramMessage(message) {
-    const url = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`;
+async function sendFonnteMessage(message) {
+    const url = "https://api.fonnte.com/send";
     try {
-        await axios.post(url, {
-            chat_id: process.env.TELEGRAM_CHAT_ID,
-            text: message,
-            parse_mode: 'Markdown'
+        const response = await axios.post(url, {
+            target: process.env.WHATSAPP_TARGET, // Target WhatsApp Number
+            message: message,
+        }, {
+            headers: {
+                "Authorization": process.env.FONNTE_TOKEN
+            }
         });
-        console.log("Telegram message sent.");
+        console.log("WhatsApp message sent via Fonnte:", response.data.status);
     } catch (error) {
-        console.error("Failed to send Telegram message:", error.message);
+        console.error("Failed to send WhatsApp message:", error.message);
     }
 }
 
@@ -234,8 +237,8 @@ async function verifyWithAI(job) {
                     const verification = await verifyWithAI(job);
 
                     if (verification.valid) {
-                        const msg = `✅ *Job Verified*\n\n📋 *Title*: ${job.title}\n🏢 *Company*: ${job.company}\n🤖 *AI Reason*: ${verification.reason}\n\n🔗 [Apply Here](${job.link})\n\n🔥 #Semangat Arfi`;
-                        await sendTelegramMessage(msg);
+                        const msg = `✅ *Job Verified*\n\n📋 *Title*: ${job.title}\n🏢 *Company*: ${job.company}\n🤖 *AI Reason*: ${verification.reason}\n\n🔗 ${job.link}\n\n🔥 #Semangat Arfi`;
+                        await sendFonnteMessage(msg);
                         notificationsSent++;
                     } else {
                         console.log(`Skipped (AI Reject): ${job.title} - ${verification.reason}`);
