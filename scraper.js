@@ -69,6 +69,28 @@ async function sendFonnteMessage(message) {
     }
 }
 
+async function sendTelegramMessage(message) {
+    const botToken = process.env.TELEGRAM_BOT_TOKEN;
+    const chatId = process.env.TELEGRAM_CHAT_ID;
+    const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+    try {
+        const response = await axios.post(url, {
+            chat_id: chatId,
+            text: message,
+            parse_mode: 'Markdown'
+        });
+        console.log("Telegram message sent:", response.data.ok);
+    } catch (error) {
+        console.error("Failed to send Telegram message:", error.message);
+    }
+}
+
+// Send notification to both WhatsApp and Telegram
+async function sendNotification(message) {
+    await sendFonnteMessage(message);
+    await sendTelegramMessage(message);
+}
+
 async function verifyWithAI(job) {
     console.log(`Verifying job with AI: ${job.title} at ${job.company}`);
 
@@ -255,7 +277,7 @@ const HISTORY_FILE = 'processed_jobs.json';
 
                     if (verification.valid) {
                         const msg = `✅ *Job Verified*\n\n📋 *Title*: ${job.title}\n🏢 *Company*: ${job.company}\n🤖 *AI Reason*: ${verification.reason}\n\n🔗 ${job.link}\n\n🔥 #Semangat Arfi`;
-                        await sendFonnteMessage(msg);
+                        await sendNotification(msg);
                         notificationsSent++;
                         totalNotificationsSent++;
                     } else {
@@ -274,12 +296,12 @@ const HISTORY_FILE = 'processed_jobs.json';
 
         if (totalNotificationsSent === 0) {
             console.log("No new jobs found in this run. Sending update.");
-            await sendFonnteMessage("LOKER BELUM ADA FI");
+            await sendNotification("LOKER BELUM ADA FI");
         }
 
     } catch (error) {
         console.error("Fatal Error:", error);
-        await sendFonnteMessage(`⚠️ *SCRAPER CRASHED*\n\nError: ${error.message}\n\nCheck GitHub Actions logs.`);
+        await sendNotification(`⚠️ *SCRAPER CRASHED*\n\nError: ${error.message}\n\nCheck GitHub Actions logs.`);
     } finally {
         await browser.close();
 
