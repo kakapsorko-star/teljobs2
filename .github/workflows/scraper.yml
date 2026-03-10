@@ -3,8 +3,8 @@ name: Glints Hourly Scraper
 on:
   workflow_dispatch:
   schedule:
-    # Berjalan tiap 30 menit (jam 09:00 s.d 13:00 WIB)
-    - cron: "0,30 2-6 * * *"
+    # Berjalan tiap 30 menit (jam 14:00 s.d 19:00 WIB)
+    - cron: "0,30 7-12 * * *"
 
 jobs:
   scrape:
