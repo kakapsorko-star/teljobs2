@@ -1,59 +1,5 @@
 [
   {
-    "id": "marketing manager-politan",
-    "title": "Marketing Manager",
-    "company": "Politan",
-    "firstSeen": "2026-08-11T12:11:41.724Z",
-    "lastSeen": "2026-08-11T12:11:41.724Z",
-    "seenCount": 1,
-    "lastNotified": "2026-08-11T12:11:41.724Z"
-  },
-  {
-    "id": "kurir-laboratory",
-    "title": "Kurir",
-    "company": "Laboratory",
-    "firstSeen": "2026-08-11T12:11:41.724Z",
-    "lastSeen": "2026-08-11T12:11:41.724Z",
-    "seenCount": 1,
-    "lastNotified": "2026-08-11T12:11:41.724Z"
-  },
-  {
-    "id": "field assistant-pt maxxi agri indonesia",
-    "title": "Field Assistant",
-    "company": "PT Maxxi Agri Indonesia",
-    "firstSeen": "2026-08-11T13:53:19.065Z",
-    "lastSeen": "2026-08-14T12:57:17.394Z",
-    "seenCount": 24,
-    "lastNotified": "2026-08-11T13:53:19.065Z"
-  },
-  {
-    "id": "sales & marketing-cv. dunia sehat sentosa indonesia",
-    "title": "Sales & Marketing",
-    "company": "Cv. Dunia Sehat Sentosa Indonesia",
-    "firstSeen": "2026-08-12T08:13:20.841Z",
-    "lastSeen": "2026-08-13T08:16:45.545Z",
-    "seenCount": 12,
-    "lastNotified": "2026-08-12T08:13:20.841Z"
-  },
-  {
-    "id": "credit marketing officer-pt. internusa tribuana citra multi finance (itc multi finance)",
-    "title": "Credit Marketing Officer",
-    "company": "PT. Internusa Tribuana Citra Multi Finance (ITC Multi Finance)",
-    "firstSeen": "2026-08-12T08:13:20.841Z",
-    "lastSeen": "2026-09-22T17:08:08.479Z",
-    "seenCount": 169,
-    "lastNotified": "2026-08-12T08:13:20.841Z"
-  },
-  {
-    "id": "marketing smd additional blitz-institut inovasi nusantara",
-    "title": "Marketing SMD Additional Blitz",
-    "company": "Institut Inovasi Nusantara",
-    "firstSeen": "2026-08-12T08:13:20.841Z",
-    "lastSeen": "2026-08-12T12:58:21.342Z",
-    "seenCount": 6,
-    "lastNotified": "2026-08-12T08:13:20.841Z"
-  },
-  {
     "id": "asisten manager-gemilang moda busana",
     "title": "Asisten Manager",
     "company": "Gemilang Moda Busana",
@@ -7996,8 +7942,8 @@
     "title": "Facebook",
     "company": "LokerMedan",
     "firstSeen": "2026-09-20T15:45:57.436Z",
-    "lastSeen": "2026-09-20T15:45:57.436Z",
-    "seenCount": 1,
+    "lastSeen": "2026-09-29T13:43:55.902Z",
+    "seenCount": 2,
     "lastNotified": "2026-09-20T15:45:57.436Z"
   },
   {
@@ -8005,8 +7951,8 @@
     "title": "Twitter",
     "company": "LokerMedan",
     "firstSeen": "2026-09-20T15:45:57.436Z",
-    "lastSeen": "2026-09-20T15:45:57.436Z",
-    "seenCount": 1,
+    "lastSeen": "2026-09-29T13:43:55.902Z",
+    "seenCount": 2,
     "lastNotified": "2026-09-20T15:45:57.436Z"
   },
   {
@@ -8998,5 +8944,59 @@
     "lastSeen": "2026-09-28T14:56:21.617Z",
     "seenCount": 1,
     "lastNotified": "2026-09-28T14:56:21.617Z"
+  },
+  {
+    "id": "relationship officer program-pt bank central asia tbk (bca)",
+    "title": "RELATIONSHIP OFFICER PROGRAM",
+    "company": "PT Bank Central Asia Tbk (BCA)",
+    "firstSeen": "2026-09-29T13:41:41.694Z",
+    "lastSeen": "2026-09-29T13:44:44.134Z",
+    "seenCount": 26,
+    "lastNotified": "2026-09-29T13:41:41.694Z"
+  },
+  {
+    "id": "management development program (mdp)-pt bank central asia tbk (bca)",
+    "title": "MANAGEMENT DEVELOPMENT PROGRAM (MDP)",
+    "company": "PT Bank Central Asia Tbk (BCA)",
+    "firstSeen": "2026-09-29T13:41:41.694Z",
+    "lastSeen": "2026-09-29T13:44:44.134Z",
+    "seenCount": 26,
+    "lastNotified": "2026-09-29T13:41:41.694Z"
+  },
+  {
+    "id": "recruitment staff-pt puriasri bhaktikarya",
+    "title": "RECRUITMENT STAFF",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-09-29T13:41:41.694Z",
+    "lastSeen": "2026-09-29T13:44:44.134Z",
+    "seenCount": 26,
+    "lastNotified": "2026-09-29T13:41:41.694Z"
+  },
+  {
+    "id": "field collection bank mandiri penempatan subang-pt puriasri bhaktikarya",
+    "title": "FIELD COLLECTION BANK MANDIRI PENEMPATAN SUBANG",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-09-29T13:41:41.694Z",
+    "lastSeen": "2026-09-29T13:44:44.134Z",
+    "seenCount": 26,
+    "lastNotified": "2026-09-29T13:41:41.694Z"
+  },
+  {
+    "id": "magang bakti customer service - pembukaan rekening online-pt bank central asia tbk (bca)",
+    "title": "MAGANG BAKTI CUSTOMER SERVICE - PEMBUKAAN REKENING ONLINE",
+    "company": "PT Bank Central Asia Tbk (BCA)",
+    "firstSeen": "2026-09-29T13:41:41.694Z",
+    "lastSeen": "2026-09-29T13:44:44.134Z",
+    "seenCount": 13,
+    "lastNotified": "2026-09-29T13:41:41.694Z"
+  },
+  {
+    "id": "magang bakti (frontliner)-pt bank central asia tbk (bca)",
+    "title": "MAGANG BAKTI (Frontliner)",
+    "company": "PT Bank Central Asia Tbk (BCA)",
+    "firstSeen": "2026-09-29T13:41:44.304Z",
+    "lastSeen": "2026-09-29T13:44:44.134Z",
+    "seenCount": 13,
+    "lastNotified": "2026-09-29T13:41:44.304Z"
   }
 ]
