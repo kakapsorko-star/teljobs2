@@ -1,23 +1,5 @@
 [
   {
-    "id": "asisten manager-gemilang moda busana",
-    "title": "Asisten Manager",
-    "company": "Gemilang Moda Busana",
-    "firstSeen": "2026-08-12T08:14:25.238Z",
-    "lastSeen": "2026-09-10T16:36:33.923Z",
-    "seenCount": 177,
-    "lastNotified": "2026-08-12T08:14:25.238Z"
-  },
-  {
-    "id": "sales indoor (kaca, aluminium, upvc)-pt era lima inti jaya",
-    "title": "SALES INDOOR (Kaca, Aluminium, UPVC)",
-    "company": "PT ERA LIMA INTI JAYA",
-    "firstSeen": "2026-08-12T08:14:25.238Z",
-    "lastSeen": "2026-09-20T15:45:15.345Z",
-    "seenCount": 203,
-    "lastNotified": "2026-08-12T08:14:25.238Z"
-  },
-  {
     "id": "inventory controller - pic stock-pt. tulip tonata indonesia",
     "title": "Inventory Controller - PIC Stock",
     "company": "PT. Tulip Tonata Indonesia",
@@ -7942,8 +7924,8 @@
     "title": "Facebook",
     "company": "LokerMedan",
     "firstSeen": "2026-09-20T15:45:57.436Z",
-    "lastSeen": "2026-10-01T14:09:37.349Z",
-    "seenCount": 4,
+    "lastSeen": "2026-10-02T13:32:16.433Z",
+    "seenCount": 5,
     "lastNotified": "2026-09-20T15:45:57.436Z"
   },
   {
@@ -7951,8 +7933,8 @@
     "title": "Twitter",
     "company": "LokerMedan",
     "firstSeen": "2026-09-20T15:45:57.436Z",
-    "lastSeen": "2026-10-01T14:09:37.349Z",
-    "seenCount": 4,
+    "lastSeen": "2026-10-02T13:32:16.433Z",
+    "seenCount": 5,
     "lastNotified": "2026-09-20T15:45:57.436Z"
   },
   {
@@ -8950,8 +8932,8 @@
     "title": "RELATIONSHIP OFFICER PROGRAM",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T13:41:41.694Z",
-    "lastSeen": "2026-10-01T14:10:24.497Z",
-    "seenCount": 78,
+    "lastSeen": "2026-10-02T13:33:01.806Z",
+    "seenCount": 104,
     "lastNotified": "2026-09-29T13:41:41.694Z"
   },
   {
@@ -8959,8 +8941,8 @@
     "title": "MANAGEMENT DEVELOPMENT PROGRAM (MDP)",
     "company": "PT Bank Central Asia Tbk (BCA)",
     "firstSeen": "2026-09-29T13:41:41.694Z",
-    "lastSeen": "2026-10-01T14:10:24.497Z",
-    "seenCount": 78,
+    "lastSeen": "2026-10-02T13:33:01.806Z",
+    "seenCount": 104,
     "lastNotified": "2026-09-29T13:41:41.694Z"
   },
   {
@@ -8998,5 +8980,23 @@
     "lastSeen": "2026-09-29T13:44:44.134Z",
     "seenCount": 13,
     "lastNotified": "2026-09-29T13:41:44.304Z"
+  },
+  {
+    "id": "sales generalis bank mandiri penempatan kwala begumit-pt puriasri bhaktikarya",
+    "title": "SALES GENERALIS BANK MANDIRI PENEMPATAN KWALA BEGUMIT",
+    "company": "PT Puriasri Bhaktikarya",
+    "firstSeen": "2026-10-02T13:30:08.567Z",
+    "lastSeen": "2026-10-02T13:33:01.806Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-02T13:30:08.567Z"
+  },
+  {
+    "id": "driver (domisili bali)-ud. duta pangan",
+    "title": "Driver (Domisili Bali)",
+    "company": "UD. Duta Pangan",
+    "firstSeen": "2026-10-02T13:30:08.567Z",
+    "lastSeen": "2026-10-02T13:33:01.806Z",
+    "seenCount": 26,
+    "lastNotified": "2026-10-02T13:30:08.567Z"
   }
 ]
